@@ -207,6 +207,47 @@ const month3Episodes: Memory[] = [
 
 const month3Extras: Memory[] = [];
 
+const month4PhotoBase = "/memories/month 4/iloveimg-converted";
+const month4DailyBase = "/memories/month 4/compressed";
+
+const month4Episodes: Memory[] = [
+  {
+    title: "Elevator Archives",
+    type: "photo",
+    src: `${month4PhotoBase}/FullSizeRender 2.jpg`,
+    thumbnail: `${month4PhotoBase}/FullSizeRender 2.jpg`,
+    caption: "Four lifts, four frames, same running bit.",
+    date: "Month 4",
+    location: "London",
+    funnyMetadata: "Recurring location",
+    tags: ["lift", "couple", "archive"]
+  },
+  {
+    title: "Pizza Bakers",
+    type: "photo",
+    src: `${month4PhotoBase}/IMG_6850.jpg`,
+    thumbnail: `${month4PhotoBase}/IMG_6850.jpg`,
+    caption: "Pizza slices, dip, and a proper food-date anchor.",
+    date: "Month 4",
+    location: "London",
+    funnyMetadata: "Food-date episode",
+    tags: ["pizza", "food", "date"]
+  },
+  {
+    title: "Carousel Cam",
+    type: "video",
+    src: `${month4DailyBase}/IMG_7061.mov`,
+    thumbnail: `${month4PhotoBase}/IMG_8359.jpg`,
+    caption: "A carousel ride with the camera already rolling.",
+    date: "Month 4",
+    location: "London",
+    funnyMetadata: "Daily vlog",
+    tags: ["carousel", "vlog", "video"]
+  }
+];
+
+const month4Extras: Memory[] = [];
+
 const extrasRow = (items: Memory[]) => [
   {
     title: "Bloopers / Extra Memories",
@@ -267,6 +308,19 @@ export const eras: Era[] = [
     vibe: "polished",
     memories: month3Episodes,
     categories: extrasRow(month3Extras)
+  },
+  {
+    id: "month-4",
+    title: "Month 4",
+    subtitle: "London routines, lift archives, food dates, daily vlogs, and one very serious M&S challenge.",
+    profileImage: `${month4PhotoBase}/IMG_8359.jpg`,
+    heroImage: `${month4PhotoBase}/IMG_8359.jpg`,
+    matchPercentage: 99,
+    runtime: "30 Days",
+    fakeGenres: ["London Days", "Daily Vlogs", "Food Dates", "After Hours"],
+    vibe: "warm",
+    memories: month4Episodes,
+    categories: extrasRow(month4Extras)
   }
 ];
 

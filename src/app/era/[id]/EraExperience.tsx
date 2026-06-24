@@ -9,6 +9,7 @@ import { FloatingAudioPlayer } from "@/components/FloatingAudioPlayer";
 import { HeroBanner } from "@/components/HeroBanner";
 import { MediaModal } from "@/components/MediaModal";
 import { MemoryRow } from "@/components/MemoryRow";
+import { MonthFourEpisode } from "@/components/MonthFourEpisode";
 import { MonthOneEpisode } from "@/components/MonthOneEpisode";
 import { MonthThreeEpisode } from "@/components/MonthThreeEpisode";
 import { MonthTwoEpisode } from "@/components/MonthTwoEpisode";
@@ -51,6 +52,8 @@ export function EraExperience({ era }: { era: Era }) {
         <MonthTwoEpisode era={era} onOpen={setSelected} />
       ) : era.id === "month-3" ? (
         <MonthThreeEpisode era={era} onOpen={setSelected} />
+      ) : era.id === "month-4" ? (
+        <MonthFourEpisode era={era} onOpen={setSelected} />
       ) : (
         <>
           <HeroBanner era={era} />
