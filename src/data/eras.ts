@@ -656,9 +656,9 @@ const month6Memories: Memory[] = [
     funnyMetadata: "Academic survival",
     layout: "wide"
   }),
-  photo("Sylvia's House Chill", `${month6Base}/1699c500-b397-463a-8ce9-039b7f0c6640.JPG`, "After work chill because my house was full or something.", ["domestic chaos", "house visit", "soft"], {
+  photo("Stavyah's House Chill", `${month6Base}/1699c500-b397-463a-8ce9-039b7f0c6640.JPG`, "After work chill because my house was full or something.", ["domestic chaos", "house visit", "soft"], {
     date: "Month 6",
-    location: "Sylvia's house",
+    location: "Stavyah's house",
     funnyMetadata: "Couch cameo",
     layout: "featured"
   }),
@@ -680,7 +680,7 @@ const month6Memories: Memory[] = [
     funnyMetadata: "Bombay Jam moment",
     layout: "featured"
   }),
-  photo("Chep The Handsome", `${month6Base}/PHOTO-2026-08-04-15-13-32.jpg`, "Chep is sweet and handsome and may still murder me.", ["dog files", "chep", "comfort"], {
+  photo("Chip The Handsome", `${month6Base}/PHOTO-2026-08-04-15-13-32.jpg`, "Chip is sweet and handsome and may still murder me.", ["dog files", "chip", "comfort"], {
     date: "Month 6",
     location: "Dog files",
     funnyMetadata: "Will sadly never meet me",
@@ -698,7 +698,7 @@ const month6Memories: Memory[] = [
     funnyMetadata: "She loves this place",
     layout: "object"
   }),
-  photo("Chep Seat Theft", `${month6Base}/PHOTO-2026-08-05-16-53-56.jpg`, "Chep looking handsome and strategically in my future danger zone.", ["dog files", "chep", "comfort"], {
+  photo("Chip Seat Theft", `${month6Base}/PHOTO-2026-08-05-16-53-56.jpg`, "Chip looking handsome and strategically in my future danger zone.", ["dog files", "chip", "comfort"], {
     date: "Month 6",
     location: "Dog files",
     funnyMetadata: "Handsome menace",
@@ -719,13 +719,13 @@ const month7Memories: Memory[] = [
     funnyMetadata: "Boujee radar active",
     layout: "object"
   }),
-  photo("Crossword Love Note 1", `${month7Base}/54A97157-E3C2-44DD-AE45-EEAA1DCE7DBD.PNG`, "A clue that became a tiny private love note.", ["crossword lore", "love notes", "screenshots"], {
+  photo("Crossword Screenshot 1", `${month7Base}/54A97157-E3C2-44DD-AE45-EEAA1DCE7DBD.PNG`, "I never told her about this. I just weirdly screenshotted it and kept it.", ["crossword lore", "silent screenshots", "screenshots"], {
     date: "Month 7",
     location: "Crossword archive",
     funnyMetadata: "Unsent but saved",
     layout: "chat"
   }),
-  photo("Crossword Love Note 2", `${month7Base}/AD60E01A-1F62-4E6C-850E-50A9EE5247B2.PNG`, "Another answer that made me think of her.", ["crossword lore", "love notes", "screenshots"], {
+  photo("Crossword Screenshot 2", `${month7Base}/AD60E01A-1F62-4E6C-850E-50A9EE5247B2.PNG`, "Another clue I never sent her, just quietly saved for no clear reason.", ["crossword lore", "silent screenshots", "screenshots"], {
     date: "Month 7",
     location: "Crossword archive",
     funnyMetadata: "Clue became lore",
@@ -737,13 +737,13 @@ const month7Memories: Memory[] = [
     funnyMetadata: "Borderline blackout universe",
     layout: "scrapbook"
   }),
-  photo("Seven-Month Party", `${month7Base}/d9edcd50-f8d4-429f-b0a9-82b1c33fe79b.JPG`, "Both of us borderline blackout drunk and somehow still cute.", ["party archive", "seven months", "couple"], {
+  photo("Seven-Month Sofa Cuddle", `${month7Base}/0a9b70fe-9c7c-472e-8387-3e30b118a591.JPG`, "Both of us borderline blackout drunk, cuddling on a sofa, and somehow still cute.", ["party archive", "seven months", "sofa cuddle"], {
     date: "7 Sep",
     location: "Party",
     funnyMetadata: "Chaotic anniversary evidence",
     layout: "featured"
   }),
-  photo("Crossword Love Note 3", `${month7Base}/E99E6E28-2B51-443D-9CDC-7FCA1748C027.JPG`, "Crossword clues that became love notes.", ["crossword lore", "love notes", "screenshots"], {
+  photo("Crossword Screenshot 3", `${month7Base}/E99E6E28-2B51-443D-9CDC-7FCA1748C027.JPG`, "I do not know why I kept taking screenshots of these. I just did.", ["crossword lore", "silent screenshots", "screenshots"], {
     date: "Month 7",
     location: "Crossword archive",
     funnyMetadata: "Very normal behaviour",
@@ -796,7 +796,7 @@ const month7Memories: Memory[] = [
     location: "Denied evidence folder",
     funnyMetadata: "She will deny this"
   }),
-  photo("Main-Feed Inka Photo", `${month7Base}/0a9b70fe-9c7c-472e-8387-3e30b118a591.JPG`, "The Inka picture important enough for the main.", ["inka", "main post", "couple"], {
+  photo("Main-Feed Inka Photo", `${month7Base}/d9edcd50-f8d4-429f-b0a9-82b1c33fe79b.JPG`, "The Inka picture important enough for the main.", ["inka", "main post", "couple"], {
     date: "Month 7",
     location: "Inka",
     funnyMetadata: "Main feed certified",
@@ -907,10 +907,10 @@ const month6Chapter: EraChapter = {
   tags: ["domestic chaos", "food evidence", "dog files", "studying"],
   sections: [
     { title: "Missing Each Other, Dramatically", description: "Crying because she missed me, dream breakups, and redacted play-fight lore.", layout: "chat", items: [month6Memories[1], month6Memories[6], month6Memories[7]] },
-    { title: "Domestic Chaos And Bombay Gym", description: "Sylvia's house, Bombay Jam, tiny membership-card lore, and one iconic cigarette photo.", layout: "feature", items: [month6Memories[9], month6Memories[12], month6Memories[2], month6Memories[5]] },
+    { title: "Domestic Chaos And Bombay Gym", description: "Stavyah's house, Bombay Jam, tiny membership-card lore, and one iconic cigarette photo.", layout: "feature", items: [month6Memories[9], month6Memories[12], month6Memories[2], month6Memories[5]] },
     { title: "Food Evidence", description: "Pizza updates, Croffle Guys, dumplings, and Casper's getting ruined by research.", layout: "objects", items: [month6Memories[3], month6Memories[17], month6Memories[15], month6Memories[11]] },
     { title: "Study Mode And Tiny Preferences", description: "Notes, nail inspo, Elle Kennedy, Wordle, and her losing it a little.", layout: "grid", items: [month6Memories[8], month6Memories[10], month6Memories[0], month6Memories[14], month6Memories[4]] },
-    { title: "Chep Files", description: "Chep is sweet and handsome and, tragically, may never meet me.", layout: "polaroids", items: [month6Memories[13], month6Memories[16]] }
+    { title: "Chip Files", description: "Chip is sweet and handsome and, tragically, may never meet me.", layout: "polaroids", items: [month6Memories[13], month6Memories[16]] }
   ]
 };
 
@@ -920,12 +920,12 @@ const month7Chapter: EraChapter = {
   eyebrow: "Seven Months Later",
   subtitle: "Louder, more social, more normal-life us.",
   intro: "Seven months in, the archive got louder. Parties, family approvals, Boujee sightings, bad KitKat latte, crosswords, future house planning, and TikTok evidence she will deny.",
-  heroImage: `${month7Base}/d9edcd50-f8d4-429f-b0a9-82b1c33fe79b.JPG`,
+  heroImage: `${month7Base}/0a9b70fe-9c7c-472e-8387-3e30b118a591.JPG`,
   featured: month7Memories[4],
   tags: ["family approval", "crossword lore", "party archive", "future house planning"],
   sections: [
-    { title: "Seven-Month Party Strip", description: "Borderline blackout, very cute, and very much part of the main story now.", layout: "grid", items: [month7Memories[4], month7Memories[3], month7Memories[10], month7Memories[14]] },
-    { title: "Crossword Clues That Became Love Notes", description: "Screenshots I usually do not send, but obviously save.", layout: "chat", items: [month7Memories[1], month7Memories[2], month7Memories[5]] },
+    { title: "Seven-Month Party Strip", description: "Borderline blackout, cuddling on a sofa, and very much part of the main story now.", layout: "grid", items: [month7Memories[4], month7Memories[3], month7Memories[10], month7Memories[14]] },
+    { title: "Crossword Clues I Never Sent", description: "I never really told her about these. I just weirdly kept taking screenshots and I do not know why.", layout: "chat", items: [month7Memories[1], month7Memories[2], month7Memories[5]] },
     { title: "Family Approval Arc", description: "Pinky Bua, Bandra coffee, Beena Aunty warmth, and normal-life integration.", layout: "chat", items: [month7Memories[11], month7Memories[15]] },
     { title: "Things That Reminded Me Of Her", description: "Boujee sightings and the KitKat latte where Deeya was right again.", layout: "objects", items: [month7Memories[0], month7Memories[7]] },
     { title: "Future House Planning Committee", description: "Interior design side quest: living rooms, fluted glass, and serious imaginary-home work.", layout: "objects", items: [month7Memories[8], month7Memories[9]] },
