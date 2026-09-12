@@ -773,9 +773,9 @@ const month7Memories: Memory[] = [
     funnyMetadata: "Serious committee work",
     layout: "object"
   }),
-  photo("My Beard At Inga", `${month7Base}/1ea31838-5113-4abf-bc47-f2274f91a9e3.JPG`, "Kissing Vian while Deeya smiles. My beard, lovingly documented.", ["inga", "party archive", "inside joke"], {
+  photo("My Beard At Inka", `${month7Base}/1ea31838-5113-4abf-bc47-f2274f91a9e3.JPG`, "Kissing Vian while Deeya smiles. My beard, lovingly documented.", ["inka", "party archive", "inside joke"], {
     date: "Month 7",
-    location: "Inga",
+    location: "Inka",
     funnyMetadata: "Beard lore confirmed",
     layout: "featured"
   }),
@@ -796,9 +796,9 @@ const month7Memories: Memory[] = [
     location: "Denied evidence folder",
     funnyMetadata: "She will deny this"
   }),
-  photo("Main-Feed Inga Photo", `${month7Base}/0a9b70fe-9c7c-472e-8387-3e30b118a591.JPG`, "The Inga picture important enough for the main.", ["inga", "main post", "couple"], {
+  photo("Main-Feed Inka Photo", `${month7Base}/0a9b70fe-9c7c-472e-8387-3e30b118a591.JPG`, "The Inka picture important enough for the main.", ["inka", "main post", "couple"], {
     date: "Month 7",
-    location: "Inga",
+    location: "Inka",
     funnyMetadata: "Main feed certified",
     layout: "featured"
   }),
